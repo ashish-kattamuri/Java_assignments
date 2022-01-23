@@ -1,5 +1,5 @@
-package yourname.assignment.data;
-public class A{
+package ashish.assignment.data;
+public class first{
 	public int a;
 	char b ;
 	public void disp(){
