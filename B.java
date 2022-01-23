@@ -1,14 +1,14 @@
-package yourname.assignment.singleton;
-public class B{
+package Ashish.assignment.singleton;
+public class second{
 	String str;
-		B(String otherStr){
+		second(String otherStr){
 		str=otherStr;
 	}
 	
-	public static B_method(String s) {
+	public static second_method(String s) {
 		//static methods can only access static variables;
 		str=s;
-		B sc = new B(s);
+		second sc = new B(s);
 		return sc;
 	}
 	public void print() {
@@ -18,8 +18,8 @@ public class B{
 	public static void main(String[] args)
 	{
 	string str = "ABCD";
-	B obj = new B(str);
-	obj.B_method(str);
+	second obj = new B(str);
+	obj.second_method(str);
 	obj.pritn();
 	}
 
